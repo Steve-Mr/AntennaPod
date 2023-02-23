@@ -27,6 +27,10 @@
         <item name="android:splitMotionEvents">false</item>
         <item name="android:fitsSystemWindows">false</item>
         <item name="android:windowContentTransitions">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
     </style>
 
     <style name="Theme.AntennaPod.Light" parent="Theme.AntennaPod.Dynamic.Light">
@@ -66,7 +70,7 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
         <item name="android:windowContentTransitions">true</item>
-        <item name="android:navigationBarColor">@color/background_darktheme</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 
     <style name="Theme.AntennaPod.Dark" parent="Theme.AntennaPod.Dynamic.Dark">
@@ -89,7 +93,7 @@
         <item name="colorSurface">@color/black</item>
         <item name="background_color">@color/black</item>
         <item name="background_elevated">@color/black</item>
-        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 
     <style name="Theme.AntennaPod.TrueBlack" parent="Theme.AntennaPod.Dark">
@@ -99,7 +103,7 @@
         <item name="colorSurface">@color/black</item>
         <item name="background_color">@color/black</item>
         <item name="background_elevated">@color/black</item>
-        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 
     <style name="Theme.AntennaPod.Dynamic.Light.NoTitle" parent="Theme.AntennaPod.Dynamic.Light">
